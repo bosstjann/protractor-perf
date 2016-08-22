@@ -1,6 +1,6 @@
 {
   "name": "protractor-perf",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Reusing Angular e2e tests for performance analysis",
   "main": "lib/index.js",
   "bin": {
@@ -27,17 +27,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node_modules/.bin/protractor test/conf.js && node lib/cli.js test/conf.js",
+    "test": "protractor test/conf.js && node lib/cli.js test/conf.js",
     "pretest": "npm run update-webdriver",
     "update-webdriver": "webdriver-manager update",
     "preupdate-webdriver": "npm install"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/axemclion/protractor-perf.git"
+    "url": "git+http://fisdev-lj-17.si.corp.adacta-group.com:7990/scm/osla/protractor-perf.git"
   },
   "bugs": {
-    "url": "https://github.com/axemclion/protractor-perf/issues"
+    "url": "http://fisdev-lj-17.si.corp.adacta-group.com:7990/projects/OSLA/repos/protractor-perf/browse"
   },
   "homepage": "https://github.com/axemclion/protractor-perf"
 }
